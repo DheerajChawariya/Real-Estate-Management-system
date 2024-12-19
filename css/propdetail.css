@@ -1,0 +1,87 @@
+.row.mb-4 {
+    margin-bottom: 4rem;
+  }
+  
+  .bg-success {
+    background-color: #28a745;
+  }
+  
+  .bg-success, .text-success {
+    color: #000000;
+  }
+  
+  /* Styles for the property details section */
+  .property-details {
+    background-color: #fff;
+    padding: 5px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .property-quantity {
+    background-color: #ddd;
+    padding: 20px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 80%;
+  }
+
+  @media screen and (max-width:600px) {
+    .property-quantity{
+        width: 250px;
+    }
+  }
+  
+  .property-quantity ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .property-quantity ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .property-quantity ul li span {
+    font-weight: bold;
+  }
+  
+  .property-details h4 {
+    color: #333;
+    margin-top: 2rem;
+  }
+  
+  .property-details p {
+    color: #666;
+  }
+  
+  .table-striped {
+    width: 100%;
+  }
+  
+  .table-striped table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .table-striped th, .table-striped td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .table-striped th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Styles for the Features section */
+  .row.features {
+    margin-top: 20px;
+  }
+  
+  /* Add your own specific styles for the Features content if needed */
+
+  

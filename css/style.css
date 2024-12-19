@@ -1,0 +1,328 @@
+*{
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/*-------------------*/
+/* Scroll Bar */
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ededed;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ededed;
+}
+/* Scroll Bar End */
+
+/*-------------------*/
+/* Navigation Bar */
+/* style nav bar */
+nav {
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+}
+/* logo image adjstment */
+.logo-name img {
+  height: 80px;
+}
+/* logo name adjstment */
+.logo-name span {          
+  position: absolute;
+  font-weight: bolder;
+  color: #fff;
+  top: 25px;
+  font-size: 20px;
+}
+/* style whole navigation class */
+.navigation {
+  list-style: none;
+  margin: 0;
+  padding-top: 40px;
+  display: flex;
+}
+
+@media screen and (max-width:740px){
+  .navigation {
+    flex-direction: column;
+  }
+}
+/* stule for navigation bar iteam */
+.navigation a {
+  font-weight: 500;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  padding: 4px 20px;
+}
+/* stule for navigation bar iteam on hover */
+.navigation a:hover {
+  background-color: #00000000;
+  color: blueviolet;
+}
+/* it style margin of contact tab */
+.navigation li:last-child {
+  margin-right: 0;
+}
+/* style for Submenu List iteam */
+.submenu li {
+  padding-top: 10px;
+}
+/* it style whole submenu */
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #00000069;
+  z-index: 1;
+}
+/* it style whole submenu on hover */
+.has-submenu:hover .submenu {
+  display: block;
+}
+/* it style all submenu */
+ul.submenu {
+  margin-top: 2px;
+  padding-left: 0px;
+}
+/* it style all submenu as list */
+.submenu li {
+  margin-right: 0px;
+  display: block;
+}
+/* it give margin to logout button from hr line*/
+hr {
+  margin-bottom: 4px;
+}
+/* logout button style */
+#logout {
+  padding-top: 0;
+ }
+/*Navigation Bar End */
+
+/* Search Form styles */
+.search-form {
+  background-color: #f8f9fa; /* Light gray background color */
+  padding: 80px 0; /* Adjust the padding as needed */
+  text-align: center;
+}
+
+.property-search {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.property-search h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ced4da; /* Light gray border */
+  border-radius: 5px;
+}
+
+.btn-success {
+  background-color: #28a745; /* Green button color */
+  color: #fff; /* White text color */
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-success:hover {
+  background-color: #218838; /* Dark green button color on hover */
+}
+
+/* featured and recommended section css */
+.featured-and-recommended {
+  padding-top: 80px;
+  text-align: center;
+  background-color: #ffffff;
+  color: black;
+  position: relative;
+}
+/* css for all box in featured and recommended */
+.fe-re-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* css for game container in featured and recommended */
+.fe-re-bo-container {
+  margin: 50px;
+  width: 10%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: solid 1px rgb(0, 0, 0);
+  cursor: pointer;
+  position: relative;
+}
+/* hover effect for game container in featured and recommended */
+.fe-re-bo-container:hover {
+  border-color: rgba(74, 74, 74, 0.463);
+}
+/* css for game image in featured and recommended */
+.fe-re-bo-container img {
+  width: 250px;
+  height: 180px;
+}
+/* css for price and window icon in featured and recommended */
+.fe-re-bo-co-decrption {
+  text-align: start;
+  padding: 10px;
+}
+/* price css in featured and recommended */
+.fe-re-bo-co-decrption h5{
+  font-size: 15px;
+  font-weight: 700;
+  color:black;
+}
+/* window icon css in featured and recommended*/
+.fe-re-bo-co-decrption .icon {
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  font-weight: 500;
+  color: black;
+  position: absolute;
+  bottom: 15px;
+  right: 0;
+}
+/* button css in featured and recommended */
+.fe-re-a-tag {
+  position: absolute;
+  top: 15%;
+  left: 60%;
+  text-decoration: none;
+  margin: 50px;
+  background-color: black;
+  padding: 1px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border: white solid 2px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight:600;
+  color: blueviolet;
+}
+/* button hover css in featured and recommended */
+.fe-re-a-tag:hover {
+  cursor: pointer;
+  background-color: blueviolet;
+  color: white;
+}
+/*Featured & Recommended Section End */
+/* Footer css */
+footer {
+  background-color: black;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  justify-content: space-between;
+}
+/* footer colum css */
+footer .col {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 20px;
+}
+/* footer logo css */
+footer .logo {
+  height: 80px;
+  margin-bottom: 30px;
+}
+/* footer heading css */
+footer h4 {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+/* footer line css */
+footer p {
+  font-size: 13px;
+  margin: 0 0 8px 0;
+}
+/* footer a tag css */
+footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 10px;
+}
+/* footer a tag hover css */
+footer a:hover {
+  color: blueviolet;
+}
+/* footer follow us area css */
+footer .follow {
+  margin-top: 20px;
+}
+/* footer follow icon css */
+footer .follow i {
+  color: chartreuse;
+  padding-right: 4px;
+  cursor: pointer;
+}
+/* footer follow icon hover css */
+footer .follow i:hover {
+  color: blueviolet;
+}
+/* payment img css */
+.payment img {
+  height: 40px;
+  width: 50px;
+}
+/* app install area in footer css */
+footer .install {
+  text-align: center;
+  justify-content: center;
+}
+/* app install button css */
+footer .install .row a{
+  color: chartreuse;
+  display: inline-block;
+  border: 2px solid chartreuse;
+  margin: 4px;
+  width: 100px;
+  padding: 6px;
+}
+/* app install button hover css */
+footer .install .row a:hover{
+  color: blueviolet;
+  border-color: blueviolet;
+}
+/* copyright line css in footer */
+footer .copyright {
+  width: 100%;
+  text-align: center;
+}
+/* Footer End */

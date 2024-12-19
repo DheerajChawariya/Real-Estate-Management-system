@@ -1,0 +1,94 @@
+/*-------------------*/
+/* Contact Section*/
+/* Contact Section Css */
+.contact-section {
+    background-color: #000000ed;
+    color: white;
+}
+/* Contact Section h1 Css */
+.contact-section h1 {
+    text-align: center;
+    padding-top: 60px;
+}
+/* Css for container which contain form and contact details */
+.main-container {
+    padding-top: 40px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+/* Css for both box */
+.container {
+    padding: 20px;
+    margin: 10px;
+    width: 35%;
+    height: 500px;
+    text-align: left;
+}
+/* Css for icon */
+.contact-icon {
+    color: chartreuse;
+}
+/* Css for contact box elements */
+.co-co-element {
+    padding-top: 40px;
+}
+/* Css for contact elments heading */
+.co-co-element strong{
+    color: rgba(255, 255, 255, 0.783);
+}
+/* Css for contact link */
+.co-co-element a{
+    color: white;
+    text-decoration: none;
+}
+/* Css for contact link hover */
+.co-co-element a:hover{
+    color: blueviolet;
+
+}
+/* Form Css */
+.form {
+    background-color: white;
+    width: 20%;
+    border-radius: 10px;
+}
+/* Form Css Heading Css */
+.container .form-heading {
+    padding-left: 20px;
+    color: black;
+}
+/* Css for all form elments */
+.container .form-group {
+    padding: 20px 20px 10px 20px;
+}
+/* Css for box for writing */
+.container .form-control1 {
+    width: 95%;
+    height: 40px;
+}
+/* Css for big box for writing  */
+.container .fo-co-2 {
+    height: 90px;
+}
+/* Css for form button */
+.btn {
+    background-color: blueviolet;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: blueviolet solid 2px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+} 
+/* Css for form button on hover */
+.btn:hover {
+        cursor: pointer;
+        background-color: white;
+        color: blueviolet;
+}
+/* Contact Section End */
